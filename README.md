@@ -6,13 +6,13 @@
 Приложение предназначено для помощи организаторам в управлении соревнованиями, а так же пользователям для просмотра информации о соревновании.
 
 # Установка
-Описание процесса установки программы и необходимых компонентов описаны [здесь](https://github.com/keyftwink/bookRegister/wiki/%238-%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F)
+Описание процесса установки программы и необходимых компонентов описаны в [руководстве пользователя](https://docs.google.com/document/d/1Ui_qYYpTX9p5abQ4aBmQgwlyPgKBU43Oe6NZoSmrBe8/edit?usp=sharing)
 # Тесты
 Для программы написаны автоматизированный тест, он находятся в соответствующей папке Test.
 
 Тесты написаны для методов класса SportEvent, который в качестве параметра конструктора String значения. В теле констуктора определяются метаданные(айди, назнвание, место, дата) соревнования, указанного в конструкторе.
 
-[Пример теста](https://github.com/keyftwink/bookRegister/wiki/%237-Unit-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
+[Пример теста]([https://github.com/keyftwink/bookRegister/wiki/%237-Unit-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5](https://github.com/keyftwink/SportsCompetitionManagement/wiki/%2310-Unit-%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
 # Использованные средства
 - [JavaFX](https://openjfx.io/) - Создание интерфейса
 - [Maven](https://maven.apache.org/) - Менеджер зависимостей
