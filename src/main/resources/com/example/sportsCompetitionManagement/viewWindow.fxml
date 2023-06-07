@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.ImageInput?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sportsCompetitionManagement.windows.ViewWindow">
+    <children>
+        <AnchorPane layoutX="13.0" layoutY="13.0" prefHeight="375.0" prefWidth="513.0" style="-fx-border-color: black;">
+            <children>
+                <TableView fx:id="tableView" layoutX="3.0" layoutY="5.0" prefHeight="374.0" prefWidth="515.0">
+                    <columns>
+                        <TableColumn fx:id="eventName" minWidth="0.0" prefWidth="154.0" text="Название" />
+                        <TableColumn fx:id="eventLocation" prefWidth="186.0" text="Место" />
+                        <TableColumn fx:id="eventDate" prefWidth="173.0" text="Дата и время" />
+                    </columns>
+                </TableView>
+            </children>
+        </AnchorPane>
+        <Button layoutX="536.0" layoutY="13.0" mnemonicParsing="false" onAction="#membersButton" pickOnBounds="false" prefHeight="50.0" prefWidth="50.0">
+            <effect>
+                <ImageInput>
+                    <source>
+                        <Image url="file:/D:/idea/projectsid/Sports_Competition_Management/src/main/resources/pictures/members.png" />
+                    </source>
+                </ImageInput>
+            </effect>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </Button>
+      <Button layoutX="536.0" layoutY="336.0" mnemonicParsing="false" onAction="#backButton" pickOnBounds="false" prefHeight="50.0" prefWidth="50.0">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/D:/idea/projectsid/Sports_Competition_Management/src/main/resources/pictures/back.png" />
+               </source>
+            </ImageInput>
+         </effect>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+    </children>
+</AnchorPane>

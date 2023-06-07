@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sportsCompetitionManagement.windows.AddMembersMenu">
+   <children>
+      <Label layoutX="35.0" layoutY="14.0" prefHeight="27.0" prefWidth="175.0" text="Участники соревнования">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TableView fx:id="membersTableView" layoutX="35.0" layoutY="41.0" prefHeight="273.0" prefWidth="544.0">
+        <columns>
+          <TableColumn fx:id="surname" prefWidth="176.0" text="Фамилия" />
+          <TableColumn fx:id="name" prefWidth="193.0" text="Имя" />
+            <TableColumn fx:id="patronymic" prefWidth="174.0" text="Отчество" />
+        </columns>
+      </TableView>
+      <TextField fx:id="surnameField" layoutX="35.0" layoutY="330.0" prefHeight="25.0" prefWidth="133.0" promptText="Фамилия" />
+      <TextField fx:id="nameField" layoutX="186.0" layoutY="330.0" prefHeight="25.0" prefWidth="133.0" promptText="Имя" />
+      <TextField fx:id="patronymicField" layoutX="338.0" layoutY="330.0" prefHeight="25.0" prefWidth="133.0" promptText="Отчество" />
+      <Button layoutX="498.0" layoutY="330.0" mnemonicParsing="false" onAction="#buttonAdd" text="Добавить" />
+      <Label fx:id="eventName" layoutX="202.0" layoutY="14.0" prefHeight="27.0" prefWidth="175.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="503.0" layoutY="361.0" mnemonicParsing="false" onAction="#buttonDelete" text="Удалить" />
+   </children>
+</AnchorPane>

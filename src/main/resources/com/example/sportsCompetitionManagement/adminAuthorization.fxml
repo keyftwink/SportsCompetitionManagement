@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="422.0" prefWidth="346.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sportsCompetitionManagement.windows.AdminAuthorization">
+   <children>
+      <Button layoutX="42.0" layoutY="317.0" mnemonicParsing="false" onAction="#onLoginButtonClick" prefHeight="32.0" prefWidth="262.0" text="Войти">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="30.0" layoutY="66.0" text="Авторизация администратора">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="247.0" layoutY="370.0" mnemonicParsing="false" onAction="#onBackButtonClick" text="Назад">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="textFieldLogin" layoutX="21.0" layoutY="154.0" prefHeight="30.0" prefWidth="304.0" promptText="Логин">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="textFieldPassword" layoutX="21.0" layoutY="211.0" prefHeight="30.0" prefWidth="304.0" promptText="Пароль">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </PasswordField>
+   </children>
+</AnchorPane>
