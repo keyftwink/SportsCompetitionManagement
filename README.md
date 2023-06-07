@@ -1,5 +1,6 @@
 # SportsCompetitionManagement
-![160](https://user-images.githubusercontent.com/101409447/209712277-9dd1aa14-d1a6-4be0-9be0-18832070deba.png)
+![icon](https://github.com/keyftwink/SportsCompetitionManagement/assets/101409447/be701bee-2f5a-4204-91c4-e02fd510d79e)
+
 
 # Описание
 Приложение предназначено для помощи организаторам в управлении соревнованиями, а так же пользователям для просмотра информации о соревновании.
